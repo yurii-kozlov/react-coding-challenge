@@ -1,0 +1,13 @@
+@use "../../styles/index.scss" as *;
+
+.errorText {
+  color: $error-color;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+.loader {
+  text-align: center;
+  font-size: 2rem;
+}
