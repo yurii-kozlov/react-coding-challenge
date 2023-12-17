@@ -1,5 +1,5 @@
 import { action, makeObservable, observable } from 'mobx';
-import TasksService from 'service/TasksService';
+import TasksService from 'services/TasksService';
 import { Task } from 'types/Task';
 import { Priority } from 'types/enums/Priority';
 import TasksUtils from 'utils/TasksUtils';
