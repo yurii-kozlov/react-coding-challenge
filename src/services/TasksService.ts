@@ -13,7 +13,6 @@ export default class TasksService {
 
       return { result: response.data, error: null };
     } catch (error) {
-      console.log({ result: null, error: this.handleApiError(error) })
       return { result: null, error: this.handleApiError(error) };
     }
   };
